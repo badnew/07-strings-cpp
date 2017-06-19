@@ -33,6 +33,10 @@ int main() {
         cout << "The strings aren't equal.\n";
     }
 
+    // concatenation
+    strcat(str1, str2);
+    cout << "str1: \"" << str1 << "\"\n";
+
     _getch();
     return 0;
 }
